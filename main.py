@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(
         prog="GACLI",
         description="A simple command line interface (CLI) to fetch the recent activity of a GitHub user and display it in the terminal.",
-        usage="%(prog)s [options]",
+        usage="python3 main.py [options]",
         epilog="For more information, visit https://github.com/AElalfee/github_activity_cli",
     )
 
